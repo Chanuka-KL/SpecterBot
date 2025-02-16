@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-TOKEN = os.getenv("7556543634:AAGg-S4lGb04MPais_ssr8-h4G3z12EOsHM")
+TOKEN = os.getenv("7809195287:AAE0KVR6PNbdlb9-dpNSwPXu11RI4iRZgMw")
 
 # Start Command
 async def start(update: Update, context: CallbackContext):
